@@ -55,3 +55,10 @@ monitors:
     url: 'https://pan.liyp.cc/'
     method: GET
     expectStatus: 200
+
+  - id: Matrix-Service 
+    name: My Matrix Service 
+    url: 'https://chat.liyp.cc/.well-known/matrix/client'
+    method: GET
+    expectStatus: 200
+    linkable: false # allows the title to be a link, default=true
